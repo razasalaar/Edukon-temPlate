@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edukon</title>
+    <link rel="stylesheet" href="./css/shopcartp.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <!-- Top Header -->
+      <div class="header-top">
+        <div class="contact-info">
+          <span><i class="fas fa-phone"></i> +800-123-4567 6587</span>
+          <span
+            ><i class="fas fa-map-marker-alt"></i> Beverley, New York 224
+            USA</span
+          >
+        </div>
+        <div class="social-links">
+          <span>Find us on:</span>
+          <a href="#" target="_blank"
+            ><i class="fab fa-facebook-messenger"></i
+          ></a>
+          <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-vimeo-v"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-skype"></i></a>
+          <a href="#" target="_blank"><i class="fas fa-rss"></i></a>
+        </div>
+      </div>
+      <!-- Main Header -->
+      <div class="header-main">
+        <div class="logo">
+          <a href="index.html">
+            <img src="./images/logo.png" alt="Edukon Logo"
+          /></a>
+        </div>
+        <nav class="navbar" id="mobile-menu">
+          <ul class="menu">
+            <li class="menu-item">
+              <a href="#" class="toggleButton">Home<span class="plus-sign">+</span></a>
+              <ul class="dropdown toggleElement">
+                <li style="background-color: #ff6600"><a href="index.html">Home One</a></li>
+                <li><a href="#">Home Two</a></li>
+                <li><a href="#">Home Three</a></li>
+                <li><a href="#">Home Four</a></li>
+                <li><a href="#">Home Five</a></li>
+                <li><a href="#">Home Six</a></li>
+                <li><a href="#">Home Seven</a></li>
+              </ul>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="toggleButton">Courses<span class="plus-sign">+</a>
+              <ul class="dropdown toggleElement">
+                <li><a href="courseo.html">Course One</a></li>
+                <li><a href="coursev.html">Course View</a></li>
+                <li><a href="coursed.html">Course Details</a></li>  
+              </ul>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="toggleButton">Blog<span class="plus-sign">+</a>
+              <ul class="dropdown toggleElement">
+                <li><a href="blogg.html">Blog Grid</a></li>
+                <li><a href="blogs2.html">Blog Style 2</a></li>
+                <li><a href="blogs3.html">Blog Style 3</a></li>
+                <li><a href="blogsingle.html">Single Blog</a></li>
+              </ul>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="toggleButton">Pages<span class="plus-sign">+</a>
+              <ul class="dropdown toggleElement">
+                <li><a href="about.html">About</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="instructor.html">Instructor</a></li>
+                <li><a href="shopp.html">Shop Page</a></li>
+                <li ><a href="shopdetailp.html">Shop Detail Page</a></li>
+                <li style="background-color: #ff6600"><a href="shopcartp.html">Shop Cart Page</a></li>
+                <li><a href="searchpage.html">Search Page</a></li>
+                <li><a href="none.html">Search None</a></li>
+                <li><a href="404.html">404</a></li>
+              </ul>
+            </li>
+            <li class="menu-item"><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="icons">
+          <div class="menu-bar">
+            <i class="fas fa-bars"></i>
+            <!-- Hamburger icon -->
+          </div>
+          <div class="info-icon">
+            <i class="fas fa-info-circle"></i>
+            <!-- Info icon -->
+          </div>
+        </div>
+        <div class="auth-buttons">
+          <a href="#" class="login-btn"> <i class="fas fa-user"></i> LOG IN </a>
+          <a href="#" class="signup-btn">
+            <i class="fas fa-users"></i> SIGN UP
+          </a>
+        </div>
+      </div>
+    </header>
+    <section class="hero-section">
+      <div class="hero-content">
+        <h1>Shop Cart</h1>
+        <p><a href="index.html">Home</a> / Cart Page</p>
+      </div>
+    </section>
+<section>
+  <div class="cart-section">
+    <table class="cart-table">
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Price</th>
+          <th>Quantity</th>
+          <th>Total</th>
+          <th>Edit</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Row 1 -->
+        <tr>
+          <td>
+            <div class="cart-product">
+              <img src="./images/p1.png" alt="Product">
+              <span>Product Text Here</span>
+            </div>
+          </td>
+          <td>$250</td>
+          <td>
+            <div class="cart-quantity">
+              <button class="quantity-btn">-</button>
+              <input type="text" value="3" readonly>
+              <button class="quantity-btn">+</button>
+            </div>
+          </td>
+          <td>$750</td>
+          <td>
+            <button class="delete-btn">🗑️</button>
+          </td>
+        </tr>
+  
+        <!-- Row 2 -->
+        <tr>
+          <td>
+            <div class="cart-product">
+              <img src="./images/p2.png" alt="Product">
+              <span>Product Text Here</span>
+            </div>
+          </td>
+          <td>$250</td>
+          <td>
+            <div class="cart-quantity">
+              <button class="quantity-btn">-</button>
+              <input type="text" value="3" readonly>
+              <button class="quantity-btn">+</button>
+            </div>
+          </td>
+          <td>$750</td>
+          <td>
+            <button class="delete-btn">🗑️</button>
+          </td>
+        </tr>
+  
+        <!-- Row 3 -->
+        <tr>
+          <td>
+            <div class="cart-product">
+              <img src="./images/p3.png" alt="Product">
+              <span>Product Text Here</span>
+            </div>
+          </td>
+          <td>$250</td>
+          <td>
+            <div class="cart-quantity">
+              <button class="quantity-btn">-</button>
+              <input type="text" value="3" readonly>
+              <button class="quantity-btn">+</button>
+            </div>
+          </td>
+          <td>$750</td>
+          <td>
+            <button class="delete-btn">🗑️</button>
+          </td>
+        </tr>
+         <!-- Row 3 -->
+         <tr>
+          <td>
+            <div class="cart-product">
+              <img src="./images/p4.png" alt="Product">
+              <span>Product Text Here</span>
+            </div>
+          </td>
+          <td>$250</td>
+          <td>
+            <div class="cart-quantity">
+              <button class="quantity-btn">-</button>
+              <input type="text" value="3" readonly>
+              <button class="quantity-btn">+</button>
+            </div>
+          </td>
+          <td>$750</td>
+          <td>
+            <button class="delete-btn">🗑️</button>
+          </td>
+        </tr>
+         <!-- Row 3 -->
+         <tr>
+          <td>
+            <div class="cart-product">
+              <img src="./images/p5.png" alt="Product">
+              <span>Product Text Here</span>
+            </div>
+          </td>
+          <td>$250</td>
+          <td>
+            <div class="cart-quantity">
+              <button class="quantity-btn">-</button>
+              <input type="text" value="3" readonly>
+              <button class="quantity-btn">+</button>
+            </div>
+          </td>
+          <td>$750</td>
+          <td>
+            <button class="delete-btn">🗑️</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
+</section>
+<div class="coupon-cart-container">
+  <!-- Coupon Section -->
+  <div class="coupon-row">
+    <div class="coupon-code">
+      <input type="text" placeholder="Coupon Code..." class="coupon-input">
+      <button class="apply-coupon-btn">Apply Coupon</button>
+    </div>
+    <div class="cart-actions">
+      <div>
+      <button class="update-cart-btn">Update Cart</button></div>
+      <div>
+      <button class="checkout-btn">Proceed to Checkout</button></div>
+    </div>
+  </div>
+
+  <div class="cart-details-row">
+    <!-- Calculate Shipping -->
+    <div class="calculate-shipping">
+      <h3>Calculate Shipping</h3>
+      <div class="shipping-fields">
+        <select class="country-select">
+          <option>United Kingdom (UK)</option>
+          <option>United States (US)</option>
+          <option>Canada</option>
+        </select>
+        <div class="state-zip">
+          <input type="text" placeholder="State/Country" class="state-input">
+          <input type="text" placeholder="Postcode/ZIP" class="postcode-input">
+        </div>
+      </div>
+      <button class="update-total-btn">Update Total</button>
+    </div>
+
+    <!-- Cart Totals -->
+    <div class="cart-totals">
+      <h3>Cart Totals</h3>
+      <div class="totals-row">
+        <span>Cart Subtotal</span>
+        <span class="total-amount">$ 0.00</span>
+      </div>
+      <div class="totals-row">
+        <span>Shipping and Handling</span>
+        <span class="free-shipping">Free Shipping</span>
+      </div>
+      <div class="totals-row total">
+        <span>Order Total</span>
+        <span class="order-total">$ 2940.00</span>
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="footer">
+  <div class="footer-content">
+    <!-- Newsletter Section -->
+    <div class="footer-newsletter">
+      <div class="newsletter-text">
+        <h3>Want Us To Email You About Special Offers And Updates?</h3>
+      </div>
+      <div class="newsletter-form">
+        <input type="email" placeholder="Enter Your Email" />
+        <button>Subscribe Now</button>
+      </div>
+    </div>
+    <hr class="footer-divider" />
+    <!-- Footer Links Section -->
+    <div class="footer-links">
+      <div class="footer-column">
+        <h4>Site Map</h4>
+        <ul>
+          <li>Documentation</li>
+          <li>Feedback</li>
+          <li>Plugins</li>
+          <li>Support Forums</li>
+          <li>Themes</li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Useful Links</h4>
+        <ul>
+          <li>About Us</li>
+          <li>Help Link</li>
+          <li>Terms & Conditions</li>
+          <li>Contact Us</li>
+          <li>Privacy Policy</li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Social Contact</h4>
+        <ul>
+          <li>Facebook</li>
+          <li>Twitter</li>
+          <li>Instagram</li>
+          <li>YouTube</li>
+          <li>Github</li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Our Support</h4>
+        <ul>
+          <li>Help Center</li>
+          <li>Paid with Mollie</li>
+          <li>Status</li>
+          <li>Changelog</li>
+          <li>Contact Support</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- Trademark Section -->
+<div class="footer-trademark">
+  <p>
+    © 2022 <span class="brand-name">Edukon</span> Designed by
+    <span class="designer-name">CodexCoder</span>
+  </p>
+</div>
+    <script src="script.js"></script>
+  </body>
+</html>

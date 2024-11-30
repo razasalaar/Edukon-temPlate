@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edukon</title>
+    <link rel="stylesheet" href="./css/shopdetailp.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <!-- Top Header -->
+      <div class="header-top">
+        <div class="contact-info">
+          <span><i class="fas fa-phone"></i> +800-123-4567 6587</span>
+          <span
+            ><i class="fas fa-map-marker-alt"></i> Beverley, New York 224
+            USA</span
+          >
+        </div>
+        <div class="social-links">
+          <span>Find us on:</span>
+          <a href="#" target="_blank"
+            ><i class="fab fa-facebook-messenger"></i
+          ></a>
+          <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-vimeo-v"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-skype"></i></a>
+          <a href="#" target="_blank"><i class="fas fa-rss"></i></a>
+        </div>
+      </div>
+      <!-- Main Header -->
+      <div class="header-main">
+        <div class="logo">
+          <a href="index.html">
+            <img src="./images/logo.png" alt="Edukon Logo"
+          /></a>
+        </div>
+        <nav class="navbar" id="mobile-menu">
+          <ul class="menu">
+            <li class="menu-item">
+              <a href="#" class="toggleButton">Home<span class="plus-sign">+</span></a>
+              <ul class="dropdown toggleElement">
+                <li style="background-color: #ff6600"><a href="index.html">Home One</a></li>
+                <li><a href="#">Home Two</a></li>
+                <li><a href="#">Home Three</a></li>
+                <li><a href="#">Home Four</a></li>
+                <li><a href="#">Home Five</a></li>
+                <li><a href="#">Home Six</a></li>
+                <li><a href="#">Home Seven</a></li>
+              </ul>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="toggleButton">Courses<span class="plus-sign">+</a>
+              <ul class="dropdown toggleElement">
+                <li><a href="courseo.html">Course One</a></li>
+                <li><a href="coursev.html">Course View</a></li>
+                <li><a href="coursed.html">Course Details</a></li>  
+              </ul>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="toggleButton">Blog<span class="plus-sign">+</a>
+              <ul class="dropdown toggleElement">
+                <li><a href="blogg.html">Blog Grid</a></li>
+                <li><a href="blogs2.html">Blog Style 2</a></li>
+                <li><a href="blogs3.html">Blog Style 3</a></li>
+                <li><a href="blogsingle.html">Single Blog</a></li>
+              </ul>
+            </li>
+            <li class="menu-item">
+              <a href="#" class="toggleButton">Pages<span class="plus-sign">+</a>
+              <ul class="dropdown toggleElement">
+                <li><a href="about.html">About</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="instructor.html">Instructor</a></li>
+                <li><a href="shopp.html">Shop Page</a></li>
+                <li style="background-color: #ff6600"><a href="shopdetailp.html">Shop Detail Page</a></li>
+                <li><a href="shopcartp.html">Shop Cart Page</a></li>
+                <li><a href="searchpage.html">Search Page</a></li>
+                <li><a href="none.html">Search None</a></li>
+                <li><a href="404.html">404</a></li>
+              </ul>
+            </li>
+            <li class="menu-item"><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="icons">
+          <div class="menu-bar">
+            <i class="fas fa-bars"></i>
+            <!-- Hamburger icon -->
+          </div>
+          <div class="info-icon">
+            <i class="fas fa-info-circle"></i>
+            <!-- Info icon -->
+          </div>
+        </div>
+        <div class="auth-buttons">
+          <a href="#" class="login-btn"> <i class="fas fa-user"></i> LOG IN </a>
+          <a href="#" class="signup-btn">
+            <i class="fas fa-users"></i> SIGN UP
+          </a>
+        </div>
+      </div>
+    </header>
+    <section class="hero-section">
+      <div class="hero-content">
+        <h1>OUR SHOP SINGLE</h1>
+        <p><a href="index.html">Home</a> /Blogs Details </p>
+      </div>
+    </section>
+    <div class="shop-detail-page">
+      <!-- Left Section: Product Slider and Details -->
+      <div class="shop-detail-left">
+        <div class="product-slider">
+          <button class="slider-arrow left" onclick="prevSlide()">❮</button>
+          <div class="slider-wrapper">
+            <img src="./images/p1.png" alt="Product Image 1" class="slider-image" />
+            <img src="./images/p2.png" alt="Product Image 2" class="slider-image" />
+            <img src="./images/p3.png" alt="Product Image 3" class="slider-image" />
+          </div>
+          <button class="slider-arrow right" onclick="nextSlide()">❯</button>
+        </div>
+        <div class="product-info">
+          <h2>The Title Here</h2>
+          <div class="product-rating">
+            ⭐⭐⭐⭐⭐ <span>(3 reviews)</span>
+          </div>
+          <p class="product-price">$340.00</p>
+          <p class="product-description">
+            Energistia an deliver atactica metrics after asvisionary apropria transition enterpris an sources applications emerging psd template.
+          </p>
+          <div class="product-options">
+            <div>
+            <select>
+              <option>Select Size</option>
+              <option>Small</option>
+              <option>Medium</option>
+              <option>Large</option>
+            </select>
+          </div>
+            <div>
+            <select>
+              <option>Select Color</option>
+              <option>Red</option>
+              <option>Blue</option>
+              <option>Green</option>
+            </select>
+            </div>
+          </div>
+        <div class="product-quantity">
+          <div>
+            <button>-</button>
+            <input type="number" value="1" />
+            <button>+</button>
+          </div>
+        
+        <div>
+          <input type="text" placeholder="Enter Discount Code" /></div>
+        </div>
+        <button class="add-to-cart">Add To Cart</button>
+      </div>
+      </div>
+    
+      <!-- Right Section: Search and Categories -->
+      <div class="shop-detail-right">
+        <div class="search-bar">
+          <input type="text" placeholder="Search..." />
+          <button>🔍</button>
+        </div>
+        <div class="categories-header">
+          <h3>All Categories</h3>
+        </div>
+        <ul class="categories-list">
+          <li>Code Optimization <span>+</span></li>
+          <li>Monitoring Ranking <span>+</span></li>
+          <li>Target Strategy <span>+</span></li>
+          <li>Nap Syndication <span>+</span></li>
+          <li>SEO Support <span>+</span></li>
+          <li>Email Marketing <span>+</span></li>
+          <li>Nap Syndication <span>+</span></li>
+          <li>SEO Support <span>+</span></li>
+          <li>Email Marketing <span>+</span></li>
+        </ul>
+      </div>
+    </div>
+    <section>
+      <div class="review-page">
+        <!-- Left Section -->
+       
+        <div class="review-section">
+          <div class="bit">
+            <button class="butt1">Description</button>
+            <button class="butt2">Reviews 4</button>
+          </div>
+      
+          <div class="reviews">
+            <div class="review">
+              <img src="./images/instruc1.png" alt="User 1" class="review-img">
+              <div class="review-content">
+                <h4>Ganelon Boileau</h4>
+                <p class="review-date">Posted on Jun 10, 2022 at 6:57 am</p>
+                <p class="review-text">Enthusiast build innovativ initiatives before lonterm high-impact awesome theme seo psd porta monetize covalent leadership after without resource.</p>
+                <div class="stars">★★★★★</div>
+              </div>
+            </div>
+            <div class="review">
+              <img src="./images/instruct2.png" alt="User 2" class="review-img">
+              <div class="review-content">
+                <h4>Morgana Cailot</h4>
+                <p class="review-date">Posted on Jun 10, 2022 at 6:57 am</p>
+                <p class="review-text">Enthusiast build innovativ initiatives before lonterm high-impact awesome theme seo psd porta monetize covalent leadership after without resource.</p>
+                <div class="stars">★★★★★</div>
+              </div>
+            </div>
+            <div class="review">
+              <img src="./images/instruct 3.png"  alt="User 3" class="review-img">
+              <div class="review-content">
+                <h4>Telford Bois</h4>
+                <p class="review-date">Posted on Jun 10, 2022 at 6:57 am</p>
+                <p class="review-text">Enthusiast build innovativ initiatives before lonterm high-impact awesome theme seo psd porta monetize covalent leadership after without resource.</p>
+                <div class="stars">★★★★★</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Right Section -->
+        <div class="most-popular">
+          <h3 class="popular-title">Most Popular Post</h3>
+          <div class="popular-post">
+            <img src="./images/laptop girl.png" alt="Post 1" class="post-img">
+            <div class="post-content">
+              <p class="post-title">Poor People’s Campaign Our...</p>
+              <p class="post-date">Jun 05, 2022</p>
+            </div>
+          </div>
+          <div class="popular-post">
+            <img src="./images/glassman.png" alt="Post 2" class="post-img">
+            <div class="post-content">
+              <p class="post-title">Poor People’s Campaign Our...</p>
+              <p class="post-date">Jun 05, 2022</p>
+            </div>
+          </div>
+          <div class="popular-post">
+            <img src="./images/pinkgirl.png" alt="Post 3" class="post-img">
+            <div class="post-content">
+              <p class="post-title">Poor People’s Campaign Our...</p>
+              <p class="post-date">Jun 05, 2022</p>
+            </div>
+          </div>
+          <div class="popular-post">
+            <img src="./images/instruct 3.png" alt="Post 3" class="post-img">
+            <div class="post-content">
+              <p class="post-title">Poor People’s Campaign Our...</p>
+              <p class="post-date">Jun 05, 2022</p>
+            </div>
+          </div>
+          <div class="popular-post">
+            <img src="./images/instruct4.png" alt="Post 3" class="post-img">
+            <div class="post-content">
+              <p class="post-title">Poor People’s Campaign Our...</p>
+              <p class="post-date">Jun 05, 2022</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="contact-section">
+  
+      <h2>
+        Leave a Comment
+      </h2>
+      <form class="contact-form">
+        <div class="form-row">
+          <input type="text" placeholder="Your Name *" required />
+          <input type="email" placeholder="Your Email *" required />
+        </div>
+        <div class="form-row">
+          <input type="tel" placeholder="Mobile Number *" required />
+          <input type="text" placeholder="Your Subject *" required />
+        </div>
+        <textarea placeholder="Your Message" rows="5"></textarea>
+        <button type="submit" class="submit-btn">Send our Message</button>
+      </form>
+    </div>
+    <footer class="footer">
+      <div class="footer-content">
+        <!-- Newsletter Section -->
+        <div class="footer-newsletter">
+          <div class="newsletter-text">
+            <h3>Want Us To Email You About Special Offers And Updates?</h3>
+          </div>
+          <div class="newsletter-form">
+            <input type="email" placeholder="Enter Your Email" />
+            <button>Subscribe Now</button>
+          </div>
+        </div>
+        <hr class="footer-divider" />
+        <!-- Footer Links Section -->
+        <div class="footer-links">
+          <div class="footer-column">
+            <h4>Site Map</h4>
+            <ul>
+              <li>Documentation</li>
+              <li>Feedback</li>
+              <li>Plugins</li>
+              <li>Support Forums</li>
+              <li>Themes</li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Useful Links</h4>
+            <ul>
+              <li>About Us</li>
+              <li>Help Link</li>
+              <li>Terms & Conditions</li>
+              <li>Contact Us</li>
+              <li>Privacy Policy</li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Social Contact</h4>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>YouTube</li>
+              <li>Github</li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Our Support</h4>
+            <ul>
+              <li>Help Center</li>
+              <li>Paid with Mollie</li>
+              <li>Status</li>
+              <li>Changelog</li>
+              <li>Contact Support</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Trademark Section -->
+    <div class="footer-trademark">
+      <p>
+        © 2022 <span class="brand-name">Edukon</span> Designed by
+        <span class="designer-name">CodexCoder</span>
+      </p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
